@@ -1,0 +1,43 @@
+.reviews {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  border-color: aqua;
+}
+
+.card img, 
+.card h3 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.user {
+  display: flex;
+  align-items: center; /* фото й блок з текстом по центру по вертикалі */
+  gap: 10px;           /* відступ між фото та текстом */
+}
+
+.user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.user .info h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.user .info .location {
+  margin: 0;
+  font-size: 14px;
+  color: gray;
+}
+

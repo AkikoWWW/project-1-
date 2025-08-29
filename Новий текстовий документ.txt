@@ -1,0 +1,261 @@
+.reviews {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 100px;
+  gap: 15px;
+}
+
+.reviews h1 {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center; 
+  font-size: 35px;
+  font-weight: 500;
+}
+.reviews p {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 20px;
+  font-size: 16px;
+  color: #4F5665;
+}
+
+.reviews .com {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 400px;
+}
+
+.reviews .com1 {
+  border: 2px solid #F53855;
+  border-radius: 10px;
+  max-width: 400px;
+}
+.reviews p {
+  text-align:justify;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LaslesVPN</title>
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+  <div class="wrapper">
+    
+    <!-- Header -->
+    <header class="container">
+      <img src="/img/Logo.svg" alt="LaslesVPN Logo">
+      <nav>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </nav>
+      <nav>
+        <ul>
+          <li class="btn1"><a href="#">Sign In</a></li>
+          <li class="btn"><a href="#">Sign Up</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero container">
+      <div class="hero_info">
+        <h1>Want anything to be easy with <strong>LaslesVPN.</strong></h1>
+        <p>Provide a network for all your needs with ease and fun using LaslesVPN. Discover interesting features from us.</p>
+        <button class="btn">Get Started</button>
+      </div>
+      <img src="/img/laptop.svg" alt="Laptop">
+    </section>
+
+    <!-- Stats -->
+    <section class="stats container">
+      <div class="stat">
+        <div class="icon"><img src="/img/user.svg" alt="Users"></div>
+        <div class="info">
+          <h3>90+</h3>
+          <p>Users</p>
+        </div>
+      </div>
+      <div class="stat">
+        <div class="icon"><img src="/img/location.svg" alt="Locations"></div>
+        <div class="info">
+          <h3>30+</h3>
+          <p>Locations</p>
+        </div>
+      </div>
+      <div class="stat">
+        <div class="icon"><img src="/img/Server.svg" alt="Servers"></div>
+        <div class="info">
+          <h3>50+</h3>
+          <p>Servers</p>
+        </div>
+      </div>
+    </section>    
+
+    <!-- Advice -->
+    <section class="advice container">
+      <img src="/img/il2.svg" alt="">
+      <div class="text-content">
+        <h2>We Provide Many Features You Can Use</h2>
+        <p>You can explore the features that we provide with fun and have their own functions each feature.</p>
+        <ul class="feature-list">
+          <li>Powerful online protection.</li>
+          <li>Internet without borders.</li>
+          <li>Supercharged VPN.</li>
+          <li>No specific time limits.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Plan -->
+    <section class="plan container">
+      <h2>Choose Your Plan</h2>
+      <p>Let's choose the package that is best for you and explore it happily and cheerfully.</p>
+    <div class="donate">
+      <div class="free">
+        <img src="/img/boxes.svg" alt="">
+        <h3>Free Plan</h3>
+        <ul>
+          <li>Unlimited Bandwitch</li>
+          <li>Encrypted Connection</li>
+          <li>No Traffic Logs</li>
+          <li>Works on All Devices</li>
+        </ul>
+        <p class="price"><strong>Free</strong></p>
+        <a href="#" class="select-btn">Select</a>
+      </div>
+      <div class="standard">
+        <img src="/img/boxes.svg" alt="">
+        <h3>Standard Plan</h3>
+        <ul>
+          <li>Unlimited Bandwitch</li>
+          <li>Encrypted Connection</li>
+          <li>No Traffic Logs</li>
+          <li>Works on All Devices</li>
+          <li>Connect Anyware</li>
+        </ul>
+        <p class="price"><strong>$9 / mo</strong></p>
+        <a href="#" class="select-btn">Select</a>
+      </div>
+      <div class="premium">
+        <img src="/img/boxes.svg" alt="">
+        <h3>Premium Plan</h3>
+        <ul>
+          <li>Unlimited Bandwitch</li>
+          <li>Encrypted Connection</li>
+          <li>No Traffic Logs</li>
+          <li>Works on All Devices</li>
+          <li>Connect Anyware</li>
+          <li>Get New Features</li>
+        </ul>
+        <p class="price"><strong>$12 / mo</strong></p>
+        <a href="#" class="select-btn">Select</a>
+      </div>
+    </div>
+    </section>
+
+    <!-- Map -->
+    <section class="global">
+      <h1>Huge Global Network of Fast VPN</h1>
+      <p>See <strong>LaslesVPN</strong> everywhere to make it easier for you when you move locations.</p>
+      <div class="map">
+        <img src="/img/map.svg" alt="">
+      </div>
+      <div class="sponsor">
+        <img src="/img/spons.svg" alt="">
+      </div>
+    </section>
+
+    <section class="reviews">
+      <h1>Trusted by Thousands of Happy Customer</h1>
+      <p>These are the stories of our customers who have joined us with great pleasure when using this crazy feature.</p>
+      <div class="com">
+      <div class="com1">
+        <p class="robert">Viezh Robert</p>
+        <p class="poland">Warsaw, Poland</p>
+        <p class="com">“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.</p>
+        <img src="/img/H1.svg" alt="">
+      </div>
+      <div class="com2">
+        <img src="/img/h2.svg" alt="">
+      </div>
+      <div class="com3">
+        <img src="/img/h3.svg" alt="">
+      </div>
+    </div>
+    </section>
+
+  </div>
+</body>
+</html>
+
+-----------
+<div class="reviews-cards">
+        <div class="card">
+          <div class="card-header">
+            <div class="user">
+              <img src="/img/H1.svg" alt="user">
+              <div>
+                <div class="name">Viezh Robert</div>
+                <div class="location">Poland</div>
+              </div>
+            </div>
+            <div class="rating">4.5 <span class="star">★</span></div>
+          </div>
+          <p class="text">“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.</p>
+        </div>
+    
+        <div class="card">
+          <div class="card-header">
+            <div class="user">
+              <img src="/img/h2.svg" alt="user">
+              <div>
+                <div class="name">Yessica Christy</div>
+                <div class="location">Shanxi, China</div>
+              </div>
+            </div>
+            <div class="rating">4.5 <span class="star">★</span></div>
+          </div>
+          <p class="text">“I like it because I like to travel far and still can connect with high speed”.</p>
+        </div>
+    
+        <div class="card">
+          <div class="card-header">
+            <div class="user">
+              <img src="/img/h3.svg" alt="user">
+              <div>
+                <div class="name">Kim Young Jou</div>
+                <div class="location">Seoul, South Korea</div>
+              </div>
+            </div>
+            <div class="rating">4.5 <span class="star">★</span></div>
+          </div>
+          <p class="text">“This is very unusual for my business that currently requires a virtual private network that has high security”.</p>
+        </div>
+        
+      </div>
+    </section>   
+    <div class="dots-container">
+      <div class="dot active"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="but">
+      <a href="#" class="arrow"><img src="/img/arowwhite.svg" alt=""></a>
+      </div>
+      <a href="#" class="arrowwhite"><img src="/img/arowwhite.svg" alt=""></a>
+    </div>
